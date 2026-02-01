@@ -1,7 +1,7 @@
 {
   "manifest_version": 1,
   "name": "V.E.L.O.C.I.T.Y.",
-  "version": "0.1.1",
+  "version": "1.1.1",
   "namespace": "Taimi.Velocity",
   "package": "Velocity.dll",
   "description": "--==Brought to you by the Guild known as DEAD==--: Quickly search for waypoints and copy their chat links to your clipboard using the Virtual Enumeration of Locations for Optimal City & Interstitial Teleportation Yields! ",
@@ -11,6 +11,5 @@
       "username": "Gorthax_"
     }
   ],
-  "url": "https://github.com/Xahtrog/V.E.L.O.C.I.T.Y"
-
+  "url": "https://www.google.com"
 }
