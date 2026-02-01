@@ -16,7 +16,7 @@ using Rectangle = Microsoft.Xna.Framework.Rectangle;
 using Color = Microsoft.Xna.Framework.Color;
 using Point = Microsoft.Xna.Framework.Point;
 
-namespace taimi.Velocity
+namespace Taimi.Velocity
 {
     public enum WindowPositionType { Center, Left, Right }
 
