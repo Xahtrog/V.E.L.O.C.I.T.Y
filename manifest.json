@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "V.E.L.O.C.I.T.Y.",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "namespace": "Taimi.Velocity",
   "package": "Velocity.dll",
   "description": "--==Brought to you by the Guild known as DEAD==--: Quickly search for waypoints and copy their chat links to your clipboard using the Virtual Enumeration of Locations for Optimal City & Interstitial Teleportation Yields! ",
