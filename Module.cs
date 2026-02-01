@@ -16,14 +16,14 @@ using Rectangle = Microsoft.Xna.Framework.Rectangle;
 using Color = Microsoft.Xna.Framework.Color;
 using Point = Microsoft.Xna.Framework.Point;
 
-namespace Velocity
+namespace taimi.Velocity
 {
     public enum WindowPositionType { Center, Left, Right }
 
     [Export(typeof(Blish_HUD.Modules.Module))]
-    public class WaypointModule : Blish_HUD.Modules.Module
+    public class VelocityModule : Blish_HUD.Modules.Module
     {
-        private static readonly Logger Logger = Logger.GetLogger<WaypointModule>();
+        private static readonly Logger Logger = Logger.GetLogger<VelocityModule>();
 
         private CornerIcon _cornerIcon;
         private Panel _mainWindow;
@@ -54,7 +54,7 @@ namespace Velocity
         private const int MAX_WINDOW_HEIGHT = 500;
 
         [ImportingConstructor]
-        public WaypointModule([Import("ModuleParameters")] ModuleParameters moduleParameters) : base(moduleParameters) { }
+        public VelocityModule([Import("ModuleParameters")] ModuleParameters moduleParameters) : base(moduleParameters) { }
 
         protected override void DefineSettings(Blish_HUD.Settings.SettingCollection settings)
         {
