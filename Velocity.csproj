@@ -56,6 +56,12 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
+  <!-- Fallback PropertyGroup (Option 2) - Added here to ensure OutputPath is always set -->
+  <PropertyGroup>
+    <!-- Fallback OutputPath using Configuration name if no specific match -->
+    <OutputPath Condition=" '$(OutputPath)' == '' ">bin\$(Configuration)\</OutputPath>
+    <IntermediateOutputPath Condition=" '$(IntermediateOutputPath)' == '' ">obj\$(Configuration)\$(Platform)\</IntermediateOutputPath>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System.Windows.Forms" />
     <Reference Include="AsyncClipboardService">
